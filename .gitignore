@@ -1,0 +1,15 @@
+# Virtual environment
+.venv/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+*.log
+*.tmp
+
+
+traffic_train/
+traffic_public_test/
+dataset/
