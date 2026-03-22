@@ -11,4 +11,4 @@ print("Sử dụng model:", best_model)
 
 model = YOLO(best_model)
 results = model.predict(source="traffic_public_test\images", save=True, save_txt=True, workers=0)
-print("✅ Predict hoàn thành. Kiểm tra runs/detect/predict/")
+print("Predict hoàn thành. Kiểm tra runs/detect/predict/")
